@@ -2,6 +2,7 @@
 ## Javascript Basic Course - F8-Fullstack 
 
 ### Config
+```
 document.addEventListener('DOMContentLoaded', function(){
 Validator({
         form: '#form-1', // form selector
@@ -20,7 +21,7 @@ Validator({
         }
       });
 });
-
+```
 #### Available rules
 1. Validator.isRequired('selector', 'message');
 2. Validator.isEmail('selector', 'message');
